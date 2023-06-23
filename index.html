@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>My first page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Hello World!</h1>
+        <p id="hello">This is my first page!
+            <a href="https://uk.wikipedia.org/wiki/HTML">HTML Wiki</a>
+            <img src="https://via.placeholder.com/150" alt="Placeholder">
+        </p>
+    </div>
+    <div class="notes">
+        <h1>Memos</h1>
+        <ol id="memoList">
+            <li>Memo 1</li>
+            <li>Memo 2</li>
+            <li>Memo 3</li>
+            <li>
+                Memo 4
+                <ul>
+                    <li>Memo 4.1</li>
+                    <li>Memo 4.2</li>
+                </ul>
+            </li>
+        </ol>
+        <form class="formFormat">
+            <input type="text" id="memoInput" name="memoInput" value="" placeholder="Memo">
+            <input type="button" id="addMemo" name="AddMemo" value="Add memo">
+        </form>
+    </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

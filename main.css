@@ -1,0 +1,18 @@
+.main {
+    color: yellow;
+}
+
+#hello {
+    color: green;
+}
+
+h1 {
+    color: green;
+    background: #EEE;
+    font-family: 'Courier New', monospace;
+    height: 50px;
+    width: 50%;
+    border: solid black 5px;
+    padding: 20px;
+    margin: 20px;
+}
