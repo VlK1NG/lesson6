@@ -10,3 +10,12 @@ document.getElementById('addMemo').addEventListener('click', () =>{
         memoInput.value = '';
     }
 })
+
+document.getElementById('loadMemo').addEventListener('click', () => {
+    const request = new XMLHttpRequest();
+    request.onload = function() {
+        document.getElementById('memoList').innerHTML = this.responseText;
+    }
+    request.open('GET', '_items.html', true);
+    request.send();
+})
